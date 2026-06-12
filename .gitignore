@@ -1,0 +1,14 @@
+# Full datasets — download from Kaggle, keep only samples in repo
+data/results.csv
+data/economy.csv
+*.csv.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Notebook output dir (regenerated on run)
+outputs/*.png
